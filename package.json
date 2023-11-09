@@ -1,0 +1,46 @@
+{
+    "name": "eagle-plugin-json-format-extension",
+    "private": true,
+    "version": "1.0.0",
+    "description": "Eagle SVGA文件格式扩展插件",
+    "author": "chuck<chuck@chihai.me>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/chihai-chuck/eagle-plugin-json-format-extension.git"
+    },
+    "files": [
+        "out"
+    ],
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build && next export",
+        "start": "next start",
+        "deploy": "gh-pages -d out -t true"
+    },
+    "dependencies": {
+        "@mantine/core": "^6.0.10",
+        "@mantine/prism": "^6.0.10",
+        "@tanstack/react-query": "^4.29.5",
+        "html-to-image": "^1.11.11",
+        "jsonc-parser": "^3.2.0",
+        "lodash.debounce": "^4.0.8",
+        "next": "13.2.3",
+        "react": "^18.2.0",
+        "react-hot-toast": "^2.4.1",
+        "react-icons": "^4.8.0",
+        "react-linkify-it": "^1.0.7",
+        "react-zoom-pan-pinch": "^3.0.7",
+        "reaflow": "^5.1.2",
+        "styled-components": "^5.3.8",
+        "zustand": "^4.3.8"
+    },
+    "devDependencies": {
+        "@next/bundle-analyzer": "^13.4.1",
+        "@types/lodash.debounce": "^4.0.7",
+        "@types/node": "^20.1.2",
+        "@types/react": "18.2.6",
+        "@types/styled-components": "^5.1.26",
+        "ts-node": "^10.9.1",
+        "typescript": "5.0.4"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "manifest": {
+        "app": {
+            "name": "JSON 形式拡張機能"
+        }
+    }
+}
