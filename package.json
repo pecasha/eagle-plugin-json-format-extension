@@ -13,7 +13,8 @@
     ],
     "scripts": {
         "dev": "next dev",
-        "build": "next build && next export",
+        "build": "npm run build:next & rollup -c --bundleConfigAsCjs",
+        "build:next": "next build && next export",
         "start": "next start",
         "deploy": "gh-pages -d out -t true"
     },
@@ -22,6 +23,7 @@
         "@mantine/prism": "^6.0.10",
         "@tanstack/react-query": "^4.29.5",
         "html-to-image": "^1.11.11",
+        "image-size": "^1.0.2",
         "jsonc-parser": "^3.2.0",
         "lodash.debounce": "^4.0.8",
         "next": "13.2.3",
@@ -36,10 +38,15 @@
     },
     "devDependencies": {
         "@next/bundle-analyzer": "^13.4.1",
+        "@rollup/plugin-commonjs": "^25.0.7",
+        "@rollup/plugin-node-resolve": "^15.2.3",
+        "@rollup/plugin-terser": "^0.4.4",
         "@types/lodash.debounce": "^4.0.7",
         "@types/node": "^20.1.2",
         "@types/react": "18.2.6",
         "@types/styled-components": "^5.1.26",
+        "rollup": "^4.3.0",
+        "rollup-plugin-typescript2": "^0.36.0",
         "ts-node": "^10.9.1",
         "typescript": "5.0.4"
     }

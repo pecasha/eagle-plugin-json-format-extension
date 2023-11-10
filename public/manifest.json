@@ -5,7 +5,7 @@
     "arch": "all",
     "name": "{{manifest.app.name}}",
     "logo": "/logo.png",
-    "devTools": false,
+    "devTools": true,
     "keywords": [
         "JSON",
         "JavaScript Object Notation"
