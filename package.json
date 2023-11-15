@@ -3,10 +3,10 @@
     "private": true,
     "version": "1.0.0",
     "description": "Eagle SVGA文件格式扩展插件",
-    "author": "chuck<chuck@chihai.me>",
+    "author": "pecasha",
     "repository": {
         "type": "git",
-        "url": "https://github.com/chihai-chuck/eagle-plugin-json-format-extension.git"
+        "url": "https://github.com/pecasha/eagle-plugin-json-format-extension.git"
     },
     "files": [
         "out"
