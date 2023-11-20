@@ -7,7 +7,7 @@ module.exports = async ({ src, dest, item }) => {
         try {
             const iframe = document.createElement("iframe");
             document.body.appendChild(iframe);
-            iframe.src = `${path.join(process.env.APPDATA, "Eagle", "Plugins", "b95aad2b-39e9-4dd5-860b-1c2c8ddf78f7", "index.html")}?thumbnail=1&theme=light&path=${src}`;
+            iframe.src = `${path.join(eagle.plugin.path, "index.html")}?thumbnail=1&theme=light&path=${src}`;
             let size = {
                 width: 0,
                 height: 0

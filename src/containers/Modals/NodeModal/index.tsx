@@ -28,8 +28,8 @@ const CodeBlock: React.FC<{ children: any }> = ({children}) => {
                 miw={350}
                 mah={250}
                 language="json"
-                copyLabel="复制"
-                copiedLabel="已复制"
+                copyLabel={i18next.t("preview.node.modal.copy")}
+                copiedLabel={i18next.t("preview.node.modal.copied")}
                 withLineNumbers
             >
                 {children}
@@ -45,14 +45,14 @@ export const NodeModal: React.FC<ModalProps> = ({opened, onClose}) => {
     );
 
     return (
-        <Modal title="节点信息" size="auto" opened={opened} onClose={onClose} centered>
+        <Modal title={i18next.t("preview.node.modal.title")} size="auto" opened={opened} onClose={onClose} centered>
             <Stack py="sm" spacing="sm">
                 <Stack spacing="xs">
-                    <Text fz="sm" fw={700}>内容</Text>
+                    <Text fz="sm" fw={700}>{i18next.t("preview.node.modal.content")}</Text>
                     <CodeBlock>{nodeData}</CodeBlock>
                 </Stack>
                 <Stack spacing="xs">
-                    <Text fz="sm" fw={700}>路径</Text>
+                    <Text fz="sm" fw={700}>{i18next.t("preview.node.modal.path")}</Text>
                     <CodeBlock>{path}</CodeBlock>
                 </Stack>
             </Stack>

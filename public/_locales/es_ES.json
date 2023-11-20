@@ -3,5 +3,22 @@
         "app": {
             "name": "Extensiones de formato JSON"
         }
+    },
+    "preview": {
+        "node": {
+            "modal": {
+                "title": "Información del nodo",
+                "content": "contenido",
+                "path": "camino",
+                "copy": "Copiar",
+                "copied": "copiado"
+            }
+        }
+    },
+    "error": {
+        "fileSizeExceeded": {
+            "title": "El complemento no puede mostrar este archivo",
+            "message": "Debido a que su archivo es demasiado grande, el complemento no puede procesarlo todavía. ¡Continuaremos optimizando para proporcionar funciones mejores y más estables!"
+        }
     }
 }

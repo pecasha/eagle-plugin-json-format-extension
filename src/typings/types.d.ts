@@ -32,3 +32,7 @@ interface EdgeData<T = any> {
     parent?: string;
     selectionDisabled?: boolean;
 }
+
+declare const eagle: any;
+
+declare const i18next: import("i18next").i18n;

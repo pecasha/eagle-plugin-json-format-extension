@@ -3,5 +3,22 @@
         "app": {
             "name": "JSON-Formaterweiterungen"
         }
+    },
+    "preview": {
+        "node": {
+            "modal": {
+                "title": "Knoteninformationen",
+                "content": "Inhalt",
+                "path": "Weg",
+                "copy": "Kopieren",
+                "copied": "kopiert"
+            }
+        }
+    },
+    "error": {
+        "fileSizeExceeded": {
+            "title": "Das Plugin kann diese Datei nicht anzeigen",
+            "message": "Da Ihre Datei zu groß ist, kann das Plugin sie noch nicht verarbeiten. Wir werden weiterhin optimieren, um bessere und stabilere Funktionen bereitzustellen!"
+        }
     }
 }

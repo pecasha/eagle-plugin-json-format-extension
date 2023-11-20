@@ -45,6 +45,7 @@
         "@types/node": "^20.1.2",
         "@types/react": "18.2.6",
         "@types/styled-components": "^5.1.26",
+        "i18next": "^23.7.6",
         "rollup": "^4.3.0",
         "rollup-plugin-typescript2": "^0.36.0",
         "ts-node": "^10.9.1",

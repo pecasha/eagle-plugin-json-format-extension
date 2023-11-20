@@ -3,5 +3,22 @@
         "app": {
             "name": "JSON Format Extensions"
         }
+    },
+    "preview": {
+        "node": {
+            "modal": {
+                "title": "Node information",
+                "content": "content",
+                "path": "path",
+                "copy": "copy",
+                "copied": "copied"
+            }
+        }
+    },
+    "error": {
+        "fileSizeExceeded": {
+            "title": "The plugin cannot display this file",
+            "message": "Because your file is too large, the plugin cannot process it yet. We will continue to optimize to provide better and more stable functions!"
+        }
     }
 }

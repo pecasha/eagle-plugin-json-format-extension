@@ -3,5 +3,22 @@
         "app": {
             "name": "JSON 格式扩展"
         }
+    },
+    "preview": {
+        "node": {
+            "modal": {
+                "title": "节点信息",
+                "content": "内容",
+                "path": "路径",
+                "copy": "复制",
+                "copied": "已复制"
+            }
+        }
+    },
+    "error": {
+        "fileSizeExceeded": {
+            "title": "插件无法显示此文件",
+            "message": "因为您的文件过大，插件目前还无法处理。我们将继续优化以提供更好更稳定的功能！"
+        }
     }
 }

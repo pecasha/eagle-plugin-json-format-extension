@@ -27,7 +27,7 @@ const StyledInfo = styled.p`
 export const ErrorView = () => (
   <StyledErrorView>
     <img src="./assets/undraw_qa_engineers_dg-5-p.svg" width="200" height="200" alt="oops" />
-    <StyledTitle>插件无法显示此文件</StyledTitle>
-    <StyledInfo>因为您的文件过大，插件目前还无法处理。我们将继续优化以提供更好更稳定的功能！</StyledInfo>
+    <StyledTitle>{i18next.t("error.fileSizeExceeded.title")}</StyledTitle>
+    <StyledInfo>{i18next.t("error.fileSizeExceeded.message")}</StyledInfo>
   </StyledErrorView>
 );
