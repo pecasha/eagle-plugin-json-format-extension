@@ -13,7 +13,9 @@
     ],
     "scripts": {
         "dev": "next dev",
-        "build": "npm run build:next",
+        "build:test": "npm run bundle",
+        "build:prod": "npm run bundle -- --prod",
+        "bundle": "npm run build:next & gulp build",
         "build:next": "next build && next export",
         "start": "next start",
         "deploy": "gh-pages -d out -t true"
@@ -41,6 +43,11 @@
         "@types/node": "^20.1.2",
         "@types/react": "18.2.6",
         "@types/styled-components": "^5.1.26",
+        "gulp": "^4.0.2",
+        "gulp-clean": "^0.4.0",
+        "gulp-json-editor": "^2.5.7",
+        "gulp-jsonmin": "^1.2.0",
+        "gulp-uglify": "^3.0.2",
         "i18next": "^23.7.6",
         "ts-node": "^10.9.1",
         "typescript": "5.0.4"
