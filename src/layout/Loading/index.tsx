@@ -35,7 +35,6 @@ const StyledLoading = styled.div<{ visible: boolean; light: boolean; }>`
     text-align: center;
     z-index: 100;
     pointer-events: visiblePainted;
-    cursor: wait;
     animation: 0.2s ${fadeIn};
     animation-fill-mode: forwards;
     visibility: hidden;
